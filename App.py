@@ -19,8 +19,7 @@ def caesar(message, offset):
 
 # Streamlit app layout
 st.title("Sabrin's Cipher App")
-st.write("The Ceaser Cipher can encrypt your text and shift it to 1-25 values, although the default shift value is 5. When you're done, click "Encrypt Now!" to get your encryption.")
-
+st.write(yes)
 # Input for plain text
 text = st.text_input("Enter the text to be encrypted:")
 
